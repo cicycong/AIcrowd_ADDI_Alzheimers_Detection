@@ -14,7 +14,7 @@ The challenge is to use the features extracted from the Clock Drawing Test to bu
 3)    Normal (Not an Alzheimer’s patient)
 
 ### 💾 Dataset
-Each row in the data set represents the results from one clock drawing test of a single participant. The data set contains ~121 features(exact feature descriptions can be found here). The description of each feature, as well as all the dataset files are shared in the Aridihia Workbench. (check out this guide to get started with the workbench)
+Each row in the data set represents the results from one clock drawing test of a single participant. The data set contains ~121 features(exact feature descriptions can be found here). The description of each feature is share in [Feature Documentation](https://github.com/cicycong/AIcrowd_ADDI_Alzheimers_Detection/blob/main/Feature-Documentation-%20ADDI%20Alzheimers%20Detection%20Challengev2.pdf).
 
 Training data
 Training data consists of 32,778 observations, which is a stratified random sample based on class labels of the original dataset. The labels are present as (Pre-Alzheimer’s, Post-Alzheimer’s, and Normal).
@@ -30,3 +30,5 @@ The test data set consists of roughly 1,473  observations without label informat
 ✔ Hyper-parameter Tuning <br /> 
 ✔ Evaluation (Log loss) <br /> 
 ✔ Prediction & Submission
+
+For detailed code, please refer [ADDI_Alzheimers_Detection.ipynb](https://github.com/cicycong/AIcrowd_ADDI_Alzheimers_Detection/blob/main/ADDI_Alzheimers_Detection.ipynb).
